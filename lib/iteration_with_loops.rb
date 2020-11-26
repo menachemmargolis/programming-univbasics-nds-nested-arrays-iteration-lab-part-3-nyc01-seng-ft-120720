@@ -8,7 +8,7 @@ def join_nested_strings(src)
     array_string=""
     while element_index <src[row_index].count do
       if src[row_index][element_index] == string
-        new_array<<  src[row_index][element_index]
+        new_array+= src[row_index][element_index]
       end
       element_index+=1
     end
