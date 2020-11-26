@@ -1,7 +1,7 @@
-def join_nested_strings(src)
+def join_nested_strings
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
-
+   src=[[6,'jj'],[77,'kk']]
   new_array=""
   row_index  = 0
   while row_index < src.count do
@@ -18,4 +18,4 @@ def join_nested_strings(src)
   end
 
 end
-join_nested_strings(src)
+join_nested_strings
