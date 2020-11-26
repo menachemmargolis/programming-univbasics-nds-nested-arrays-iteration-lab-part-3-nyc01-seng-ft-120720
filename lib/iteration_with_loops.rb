@@ -16,6 +16,6 @@ def join_nested_strings
       row_index+=1
 
   end
-
+  p new_array
 end
 join_nested_strings
